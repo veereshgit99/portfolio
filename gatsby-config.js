@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Veeresh Shanmukha Koliwad',
-        short_name: 'Veeresh Shanmukha Koliwad',
+        short_name: 'portfolio',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
