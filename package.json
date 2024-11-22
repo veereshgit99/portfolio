@@ -12,11 +12,14 @@
   ],
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "deploy": "gatsby build && cp -R public/* ./",
+    "deploy": "gatsby build",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
