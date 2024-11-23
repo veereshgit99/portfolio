@@ -125,7 +125,26 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'Machine Learning', 'Computer Vision', 'Recommendation System', 'NLP & LLM', 'TensorFlow & PyTorch', 'JavaScript', 'TypeScript', 'Node.js', 'React', 'SQL & NoSQL Databases', 'Docker', 'Kubernetes', 'Aamzon Web Services', 'Azure', 'SAP Cloud Platform', 'Git', 'Agile Methodologies (Scrum, CI/CD)'];
+  const skills = [
+    'Python',
+    'Machine Learning',
+    'Computer Vision',
+    'Recommendation System',
+    'NLP & LLM',
+    'TensorFlow & PyTorch',
+    'JavaScript',
+    'TypeScript',
+    'Node.js',
+    'React',
+    'SQL & NoSQL Databases',
+    'Docker',
+    'Kubernetes',
+    'Aamzon Web Services',
+    'Azure',
+    'SAP Cloud Platform',
+    'Git',
+    'Agile Methodologies (Scrum, CI/CD)',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,23 +154,29 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Experienced in full-stack development, machine learning, and artificial intelligence, with a strong focus on creating scalable and intelligent systems.
-              Passionate about delivering high-quality, impactful solutions on time.
+              Experienced in full-stack development, machine learning, and artificial intelligence,
+              with a strong focus on creating scalable and intelligent systems. Passionate about
+              delivering high-quality, impactful solutions on time.
             </p>
 
             <p>
               I'm currently pursuing a Master's in Computer Science at{' '}
-              <a href="https://scai.engineering.asu.edu/graduate-computer-science/" target="_blank" rel="noreferrer">
+              <a
+                href="https://scai.engineering.asu.edu/graduate-computer-science/"
+                target="_blank"
+                rel="noreferrer">
                 Arizona State University
               </a>
             </p>
 
             <p>
-              I worked as an Associate Software Developer at SAP Labs for over two years, where I developed scalable backend services and enhanced system performance.
+              I worked as an Associate Software Developer at SAP Labs for over two years, where I
+              developed scalable backend services and enhanced system performance.
             </p>
 
             <p>
-              I love watching movies, playing football and a huge fan of Cristiano Ronaldo and Arsenal.
+              I love watching movies, playing football and a huge fan of Cristiano Ronaldo and
+              Arsenal.
             </p>
 
             <p>Here are a few technologies I’m familiar with:</p>
@@ -166,7 +191,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
